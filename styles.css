@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #f1f1f1;
+    color: #0F141E;
+    }
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+@media (max-width:650px) {
+    .container {
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+.avatar {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(22, 21, 21, 0.25);
+    margin: 20px;
+}
+h1, h2 {
+    font-style: italic;  
+}
+/*h2 {
+    font-style: italic;
+    }*/
+
+.info {
+    border-radius: 20px;
+    background:  rgb(213, 192, 253);
+    padding: 20px;
+    /*padding-top: 1px;*/
+    color: rgb(85, 26, 139);
+    margin: 20px;
+    text-align: center;
+}
+.av-inf {
+    display: flex;
+}
+.table { 
+    color: navy;
+    background: rgb(183, 222, 245);
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 1px;
+    margin: 20px;
+    /*width: 100%;*/
+}
+.table th {
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.table th:nth-child(2), .table th:nth-child(3) {
+    text-align: center;
+}    
+
+.table td {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    text-align: center;
+}     
+
+.hobbi {
+    border-radius: 20px;
+    background: rgb(218, 241, 194);
+    padding: 20px;
+    padding-top: 1px;
+    margin: 20px;
+    color: darkslategray;
+}
+
+
+.forms {
+    font-weight: normal;
+    border-radius: 20px;
+    background: rgb(239, 252, 165);
+    padding: 20px;
+    padding-top: 1px;
+    margin: 20px;
+    color: rgb(53, 52, 11);
+    }
+/*a {
+   text-decoration: none;
+}*/
+a:hover {
+    color: blue;
+    /*font-size: 2rem;*/
+}
+/*a:visited {
+    color: rgb(234, 0, 255);
+}*/
+a:active {
+    color: black;
+}
+.btn {
+    background: rgb(245, 205, 205);
+    padding: 10px 15px;
+    color: rgb(156, 4, 136);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+
+}

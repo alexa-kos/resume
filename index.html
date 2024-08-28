@@ -6,26 +6,71 @@
     <meta name="keywords" content="достижения, учеба, Костя">
     <meta name="description" content="Информация о Косте">
     <title>Костя</title>
-</head>
-<a>
-<img src="20230811_114803.jpg" width="400" alt="фото Кости">
-<h1>Привет, меня зовут Костя!</h1>  
-<p>Здесь вы узнаете информацию обо мне. </p>
-<p>Мои <strong>достижения</strong> в учебе, увлечения.</p>
-<br>
-<a href="учеба.html">Учеба в казачьем классе</a>
-<br>
-<hr>
+    <link rel="stylesheet" href="styles.css">    
+   </head>
+<body>
+<div class="container">
+    <div class="av-inf">
+        <img src="20230811_114803.jpg" class="avatar" alt="фото Кости">
+        <div class="card info">
+            <h1>Привет, меня зовут Костя!</h1> 
+            <br>
+            <p>Здесь вы узнаете информацию обо мне. Мои достижения в учебе, увлечения.</p>
+            <br>
+            <a href="учеба.html" >Учеба в казачьем классе</a>
+            </div>
+        </div>
+<div class="card table">
+<h2>Моя успеваемость</h2>
+<table width="450">
+    <thead>
+    <tr>
+        <th>Название предмета</th>
+        <th>Оценка</th>
+        <th>Год</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Математика</td>
+        <td>5</td>
+        <td>2023-2024</td>    
+    </tr>
+    <tr>
+        <td>Руссский язык</td>
+        <td>5</td>
+        <td>2023-2024</td>    
+    </tr>
+    <tr>
+        <td>Чтение</td>
+        <td>5</td>
+        <td>2023-2024</td>    
+    </tr>
+    <tr>
+        <td>Английский яык</td>
+        <td>5</td>
+        <td>2023-2024</td>    
+    </tr>
+    <tr>
+        <td>Окружающий мир</td>
+        <td>5</td>
+        <td>2023-2024</td>    
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="card hobbi">
 <h2>Мои хобби</h2>
-<ul>
+<ul class="list">
     <li>Учиться программированию</li>
     <li>Плавать с маской</li>
     <li>Ловить крабов, ходить на рыбалку</li>
     <li>Играть с другом в stend off</li>
 </ul>
-<hr>
-<h1>Связаться со мной</h1>
-<form>
+</div>
+
+<form action='/' class="forms">
+    <h2>Связаться со мной</h2>
     <div>
     <label for="text">Ваше имя:</label>
     <input type="text" id="text" placeholder="Введите ваше имя">
@@ -40,9 +85,10 @@
     <div>
         <label for="message">Ваше сообщение:</label>
         <br>
-        <textarea id="message" cols="30" rows="10"></textarea>
+        <textarea id="message" cols="32" rows="10"></textarea>
     </div>
-    <button type="submit">Отправить</button>
+    <button class="btn" type="submit">Отправить</button>
 </form>
+</div>
 </body>
 </html> 
